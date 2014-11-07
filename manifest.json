@@ -1,5 +1,5 @@
 {
-	"name" : "Navy Fast Navigation Button",
+	"name" : "Navy Navigation Button",
 	"short_name" : "Navy",
 	"author" : "Shirhen Ince",
 	"version" : "0.0.1",
@@ -7,7 +7,7 @@
 	"permissions" : [
 	  "tabs", "http://*/*","https://*/*","storage"
 	],
-	"description" : "Browse faster than ever with a fully configurable quick navigation button placed in your browser window.",
+	"description" : "A quick navigation button placed in your browser window.",
 	"content_scripts" : [
 		{
 			"matches" : ["http://*/*","https://*/*"],

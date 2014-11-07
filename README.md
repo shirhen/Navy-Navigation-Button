@@ -2,7 +2,7 @@
 
 A Google Chrome extension for website navigation.
 
-use : 
+Use : 
 HandlebarsJS
 JQuery
 JQueryUI
