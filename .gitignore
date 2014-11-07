@@ -11,9 +11,11 @@ html/options.html
 js/jquery-1.10.2.js
 navigation-button.css
 navigation-button.js
+navigation-button.html
 try.js
+try.html
 js/data.js
-
+.gitattributes
 
 #################
 ## Eclipse
