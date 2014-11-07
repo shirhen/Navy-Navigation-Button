@@ -1,0 +1,46 @@
+js/btnAttrManagement.js
+js/btnClickNHover.js
+js/btnPosNDrg.js
+js/dataStorage.js
+js/main.js
+js/option.js
+js/spectrum.js
+css/spectrum.css
+css/style-options.css
+html/options.html
+js/jquery-1.10.2.js
+navigation-button.css
+navigation-button.js
+try.js
+js/data.js
+
+
+#################
+## Eclipse
+#################
+
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath

@@ -1,0 +1,65 @@
+
+/* main navy button */
+.navy-button {
+ z-index: 5;
+/*  border-top-left-radius:20px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;border: 2px solid;*/
+position:absolute;
+height: 50px;
+width: 50px;
+pointer-events:all;
+}
+
+#dragButton {
+/*
+border-radius: 50px;
+border: 2px solid;
+*/
+pointer-events:all;
+display:none;
+}
+
+.navy-select-buttons{
+	margin-top: 50px;
+	position:absolute;
+	border:0px;
+	display:none;
+	/*font-family: DroidSansRegular, Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 14px;
+	font-weight: 400;*/
+	pointer-events:none;
+	-webkit-user-select: none; 
+}
+.link-circle a{
+	text-decoration:none;
+	line-height:.6;
+}
+.navy-container{
+	position:fixed;
+	pointer-events:none;
+	-webkit-transform: rotate(180deg);
+}
+/*links slices */
+
+.link-circle{
+	text-align: center;
+	border: 2px solid;
+
+}
+
+.navy-nav ul {
+	position: absolute;
+	width: 50px;
+	list-style: none;
+    /*bottom:100%;*/
+}
+.navy-nav li {
+	-webkit-transform: rotate(180deg);
+}
+.slice {
+	overflow: hidden;
+}
+.link-circle a, .link-circle a:hover,.link-circle a:visited {
+text-decoration: none !important;
+}

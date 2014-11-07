@@ -1,0 +1,23 @@
+{
+	"name" : "Navy Fast Navigation Button",
+	"short_name" : "Navy",
+	"author" : "Shirhen Ince",
+	"version" : "0.0.1",
+	"manifest_version" : 2,
+	"permissions" : [
+	  "tabs", "http://*/*","https://*/*","storage"
+	],
+	"description" : "Browse faster than ever with a fully configurable quick navigation button placed in your browser window.",
+	"content_scripts" : [
+		{
+			"matches" : ["http://*/*","https://*/*"],
+			"css" : ["css/style.css"],
+			"js" : ["js/jquery-2.1.1.js","js/jquery-ui-1.10.4.custom.min.js","js/jquery.ui.touch-punch.min.js","js/handlebars.js","js/buttonInsert.js" ]
+		}
+	],
+	"options_page": "html/options.html",
+	"web_accessible_resources": [
+		"http://*","https://*","*.js", "img/*.png","*.css","*.html","http://fonts.googleapis.com/css?family=Lobster",
+		 "*.eot","*.svg","*.ttf","*.woff"
+	]
+}
